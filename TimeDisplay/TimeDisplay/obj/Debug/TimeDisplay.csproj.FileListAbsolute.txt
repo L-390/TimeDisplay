@@ -1,0 +1,7 @@
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\bin\TypeScriptHTMLApp1.dll
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\bin\TypeScriptHTMLApp1.pdb
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\obj\Debug\TimeDisplay.csprojAssemblyReference.cache
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\obj\Debug\TimeDisplay.csproj.CoreCompileInputs.cache
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\Liam\source\repos\TimeDisplay\TimeDisplay\obj\Debug\TypeScriptHTMLApp1.pdb

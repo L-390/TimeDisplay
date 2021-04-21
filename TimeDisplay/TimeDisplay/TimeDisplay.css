@@ -1,0 +1,140 @@
+﻿:root {
+    --bodyHeightScale: 1;
+    background-color: transparent;
+}
+
+@keyframes TemporaryShow {
+
+    0%, 100% {
+        visibility: visible;
+    }
+}
+
+@keyframes TemporaryHide {
+
+    0%, 100% {
+        visibility: hidden;
+    }
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+    html body {
+        -webkit-user-select: none;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+#highlight {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+
+#TimeDisplay {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+    #TimeDisplay #Mainframe {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+
+        /* Display */
+        #TimeDisplay #Mainframe #Display {
+            background-color: black;
+            position: absolute;
+            top: 10vh;
+            left: 37vw;
+            width: 30vw;
+            height: 70vh;
+            border: 1vh solid black;
+            border-radius: 0vh;
+        }
+
+        /* clock */
+        #TimeDisplay #Mainframe #Clock {
+            background-color: transparent;
+            position: absolute;
+            color: white;
+            top: 57vh;
+            left: 37.5vw;
+            width: 29vw;
+            height: 22vh;
+            border: 1vh solid black;
+            border-radius: 0vh;
+            font-family: Roboto-Bold;
+            font-size: 7vh;
+        }
+
+        /* Stopwatch */
+        #TimeDisplay #Mainframe #Stopwatch {
+            background-color: transparent;
+            position: absolute;
+            color: white;
+            top: 34vh;
+            left: 37.5vw;
+            width: 29vw;
+            height: 22vh;
+            border: 1vh solid black;
+            border-radius: 0vh;
+            font-family: Roboto-Bold;
+            font-size: 7vh;
+        }
+
+        /* stop/start button */
+        #TimeDisplay #Mainframe #StartStop {
+            background-color: dimgrey;
+            position: absolute;
+            color: white;
+            top: 11vh;
+            left: 37.5vw;
+            width: 14vw;
+            height: 16vh;
+            border: 1vh solid black;
+            border-radius: 2vh;
+            font-family: Robot-Bold;
+            font-size: 6vh;
+            text-align: center;
+        }
+
+        /* reset button */
+        #TimeDisplay #Mainframe #Reset {
+            background-color: dimgrey;
+            position: absolute;
+            color: white;
+            top: 11vh;
+            left: 52.5vw;
+            width: 14vw;
+            height: 16vh;
+            border: 1vh solid black;
+            border-radius: 2vh;
+            font-family: Roboto-Bold;
+            font-size: 6vh;
+            text-align: center;
+        }
+
+        #TimeDisplay #Mainframe #gauge-outline {
+            background-color: transparent;
+            position: absolute;
+            top: 10vh;
+            left: 37vw;
+            width: 554.4px;
+            height: 706.3px;
+            border: 1px solid white;
+        }
